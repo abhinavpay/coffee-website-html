@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="section-1">
+            
+
+            <div class="nav-bar">
+                <h1>KOPPEE</h1>
+                <span class="link-bar">
+                <a class="links" href="">Home</a>
+                <a  class="links" href="">About</a>
+                <a   class="links" href="">Service</a>
+                <a  class="links" href="">Menu</a>
+                <a  class="links" href="">Contact</a>
+            </span>
+            </div>
+                    
+            
+
+            <div class="content">
+              <span >  <p class="p1">Have Been Serving </p><br></span>
+                <p class="p2">COFFEE</p><br>
+               <span> <p class="p3">* SINCE 1950 *</p></span>
+
+            </div>
+        </div>
+
+
+    </div>
+    
+
+    <div class="vertical"></div>
+
+
+    <div class="section-2">
+
+    <h2 class="about">ABOUT US</h2>
+    <h1 class="about-2">Serving Since 1950</h1>
+
+    <img class="about-img" src="./img/about.png" alt="">
+
+
+    <div class="our-story">
+        <h2 class="our">Our Story</h2>
+        <h3 class="our-2">Eos kasd eos dolor vero vero, lorem <br> stet diam rebum. Ipsum amet sed vero <br> dolor sea</h3>
+        <p class="our-3">Takimata sed vero vero no sit sed, justo clita <br> duo no duo amet et, nonumy kasd sed <br> dolor eos diam lorem eirmod. Amet sit <br> amet amet no. Est nonumy sed labore <br> eirmod sit magna. Erat at est justobr
+             sit ut. <br> Labor diam sed ipsum et eirmod</p>
+        <button class="our-btn">Learn More</button>
+    </div>
+        
+    <div class="our-vision">
+
+        <h2 class="our">Our Vision</h2>
+        <p class="our-3">Takimata sed vero vero no sit sed, justo clita <br> duo no duo amet et, nonumy kasd sed <br> dolor eos diam lorem eirmod. Amet sit <br> amet amet no. Est nonumy sed labore <br> eirmod sit magna. Erat at est justobr
+             sit ut. <br> Labor diam sed ipsum et eirmod</p>
+             
+             <p>Lorem ipsum dolor sit amet </p>
+             <p>Lorem ipsum dolor sit amet </p>
+             <p>Lorem ipsum dolor sit amet </p>
+        <button class="our-btn">Learn More</button><br>
+        
+    </div>
+  
+    </div>
+
+    <div class="vertical"></div>
+
+    <div class="section-3">
+        <h2 class="service-1">OUR SERVICES</h2>
+        <h1 class="service-2">Fresh & Organic Beans</h1>
+
+        <div class="img-1">
+            <img class="service-img-1" src="./img/service-1.jpg" alt="">
+            
+            <h2 class="service-h2-1">Fastest Door Delivery</h2>
+            <p class="service-p-1" >Guberg sea et et lorem dolor <br> sed est sit invidunt, dolore <br> tempor diam ipsum takima erat tempor </p>
+        </div>
+
+        <div class="img-2" >
+
+            <img  class="service-img-2"  src="./img/service-2.jpg" alt="">
+            <h2 class="service-h2-2">Fresh Coffee Beans</h2>
+            <p class="service-p-2" >Guberg sea et et lorem dolor <br> sed est sit invidunt, dolore <br> tempor diam ipsum takima erat tempor </p>
+
+
+        </div>
+        <div class="img-3">
+            
+            <img  class="service-img-3" src="./img/service-3.jpg" alt="">
+            <h2 class="service-h2-1">Best Quality Coffee</h2>
+            <p class="service-p-1" >Guberg sea et et lorem dolor <br> sed est sit invidunt, dolore <br> tempor diam ipsum takima erat tempor </p>      
+        </div>
+
+        <div class="img-4">
+
+            <img  class="service-img-4" src="./img/service-4.jpg" alt="">
+            <h2 class="service-h2-2">Online Table Booking</h2>
+            <p class="service-p-2" >Guberg sea et et lorem dolor <br> sed est sit invidunt, dolore <br> tempor diam ipsum takima erat tempor </p>
+
+        </div>
+
+        <div class="section-3">
+            
+            <img class="bg-1" src="./img/bg.jpg" alt="">
+            <h1 class="off-h1">50% OFF </h1>
+            <h2 class="off-h2">Sunday Special Offer</h2>
+          <span class="email-bar">  <input class="email" type="text" placeholder="Your Email" > 
+            <button class="signup">Sign Up</button></span>
+            
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+body{
+    margin: 0;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+     
+    background-image: url(./img/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1708px 756px;
+    background-position: center;
+    animation: slider 15s linear infinite; 
+
+}
+@keyframes slider{
+    0%{
+        background-image: url(./img/carousel-1.jpg);
+    }
+    25%{
+        background-image: url(./img/carousel-1.jpg);
+    }
+    45%{
+        background-image: url(./img/carousel-2.jpg);
+    }
+    50%{
+        background-image: url(./img/carousel-2.jpg);
+    }
+    65%{
+        background-image: url(./img/bg.jpg);
+    }
+    75%{
+        background-image: url(./img/bg.jpg);
+    }
+
+}
+
+.section-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.content{
+    width: 100%;
+    height: 100%;   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.content p{
+    font-size: 50px;
+    margin-bottom: 0;
+
+    
+}
+.content p2{
+    font-size: 50px;
+}
+h1{
+    color: white;
+    margin-left: 71px;
+    margin-top: 50px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 45px;
+}
+.links{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    margin: 25px;
+    margin-right: 20px;
+  
+    
+}
+
+
+
+.nav-bar{
+    display: flex;
+    
+}
+.link-bar{
+   
+    margin-left: 789px;
+    margin-top: 61px;
+   
+
+}
+.links:hover{
+   
+    color: #4e3c2e;
+
+}
+
+span{
+    color: #cd9469;
+}
+
+.vertical{
+    margin-left: 50%;
+    height: 167px;
+    width: 6px;
+    margin-top: 156px;
+    background-color:#cd9469;
+}
+
+.about{
+    color:#cd9469;
+    margin-left: 44%;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.about-2{
+    color: #4e3c2e;
+    margin-left: 33%;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+.about-img{
+    margin-left: 614px;
+    height: 470px;
+
+}
+.our{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.our-2{
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+.our-3{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.our-btn{
+    color: white;
+    background-color: #4e3c2e;
+    height: 40px;
+    width: 142px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 20px;
+
+
+}
+.our-btn:hover{
+    background-color: black;
+}
+.our-story{
+    margin-left: 116px;
+    margin-top: -445px;
+}
+.our-vision{
+    margin-left: 1270px;
+    margin-top: -412px;
+}
+.service-1{
+    color:#cd9469;
+    margin-left: 41%;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.service-2{
+    
+    color:#4e3c2e;
+    margin-left: 33%;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+.service-img-1{
+    height: 274px;
+    width: 359px;
+    margin-left: 130px;
+
+}
+.service-h2-1{
+    font-family: sans-serif;
+    margin-left: 535px;
+    margin-top: -275px;
+    color:#4e3c2e;
+}
+
+.service-p-1{
+    color:#cd9469;
+    margin-left: 539px;
+    font-size: 19px;
+
+}
+.service-img-2{
+    height: 274px;
+    width: 359px;
+    margin-left: 976px;
+    margin-top: -134px;
+
+   
+}
+
+.service-h2-2{
+    font-family: sans-serif;
+    margin-left: 1400px;
+    margin-top: -273px;
+    color:#4e3c2e;
+
+}
+
+.service-p-2{
+    color:#cd9469;
+    margin-left: 1403px;
+    font-size: 19px;
+}
+
+.service-img-3{
+    height: 274px;
+    width: 359px;
+    margin-left: 130px;
+    margin-top: 240px;
+}
+
+.service-img-4{
+    height: 274px;
+    width: 359px;
+    margin-left: 976px;
+    margin-top: -134px;
+
+}
+
+.bg-1{
+    width: 1708px;
+    height: 408px;
+    margin-left: -4px;
+    margin-top: 204px;
+    object-fit: cover;
+    border-radius: 25px 39px 35px 35px;
+    position: relative;
+    background-repeat: no-repeat;
+    
+    
+    
+
+}
+.off-h1{
+    position: absolute;
+    color: #f18b3d;
+    margin-top: -375px;
+    margin-left: 618px;
+    font-size: 101px;
+    font-family: sans-serif;
+
+}
+.off-h2{
+    position: absolute;
+    margin-top: -232px;
+    margin-left: 518px;
+    color: white;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.email-bar{
+    position: absolute;
+    margin-left: 685px;
+    margin-top: -97px;
+}
+.email{
+    width: 307px;
+    height: 45px;
+    border-radius: 2px;
+    border: 4px solid #4e3c2e;
+}
+
+::placeholder{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
